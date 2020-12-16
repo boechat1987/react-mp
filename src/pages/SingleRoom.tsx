@@ -37,8 +37,8 @@ export default class SingleRoom extends Component<IPropsSingleRoom, IStateSingle
         if (!room) {
             return (
                 <div className="error">
-                    <h3>no such room could be found...</h3>
-                    <Link to="/rooms" className="btn-primary">back to rooms</Link>
+                    <h3>quarto não foi encontrado...</h3>
+                    <Link to="/rooms" className="btn-primary">retornar para acomodações</Link>
                 </div>
             );
         }
@@ -49,7 +49,7 @@ export default class SingleRoom extends Component<IPropsSingleRoom, IStateSingle
             <React.Fragment>
                <StyledCover img={mainImg || this.state.defaultbcg}>
                    <Banner title={`${name} room`} >
-                       <Link to="/rooms" className="btn-primary">back to rooms</Link>
+                       <Link to="/rooms" className="btn-primary">acomodações</Link>
                    </Banner>
                </StyledCover>
                <section className="single-room">
@@ -60,16 +60,16 @@ export default class SingleRoom extends Component<IPropsSingleRoom, IStateSingle
                    </div>
                    <div className="single-room-info">
                        <article className="desc">
-                           <h3>details</h3>
+                           <h3>detalhes</h3>
                            <p>{description}</p>
                        </article>
                        <article className="info">
                            <h3>info</h3>
-                           <h6>price : ${price}</h6>
-                           <h6>size : {size} SQFT</h6>
-                           <h6>max capacity: { capacity > 1 ? `${capacity} people` : `${capacity} person` }</h6>
-                           <h6>{pets ? "pets allowed" : "no pets allowed"}</h6>
-                           <h6>{breakfast && "free breakfast included"}</h6>
+                           <h6>preço : R${price}</h6>
+                           <h6>tamanho : {size} m²</h6>
+                           <h6>capacidade máxima: { capacity > 1 ? `${capacity} people` : `${capacity} person` }</h6>
+                           <h6>{pets ? "permitido pets" : "não permite pets"}</h6>
+                           <h6>{breakfast && "café incluído"}</h6>
                        </article>
                    </div>
                </section>

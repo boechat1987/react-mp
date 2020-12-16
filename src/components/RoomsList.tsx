@@ -10,7 +10,7 @@ const RoomsList: React.FC<IPropsRoomsFilter> = ({rooms}) => {
     if (rooms.length === 0) {
         return (
             <div className="empty-search">
-                <h3>unfortunately no rooms matched your search parameters</h3>
+                <h3>infelizmente não há quartos disponíveis para essa pesquisa</h3>
             </div>
         )
     }

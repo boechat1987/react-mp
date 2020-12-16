@@ -11,7 +11,7 @@ class RoomProvider extends Component<{}, IStateContext> {
         sortedRooms: [],
         featuredRooms: [],
         loading: true,
-        type: "all",
+        type: "todos",
         capacity: 1,
         price: 0,
         minPrice: 0,
@@ -97,7 +97,7 @@ class RoomProvider extends Component<{}, IStateContext> {
         price = Number(price);
 
         // filter by type
-        if (type !== 'all') {
+        if (type !== 'todos') {
             tempRooms = tempRooms.filter(room => room.type === type)
         }
 

@@ -10,10 +10,10 @@ const Home: React.FC = () => {
         <React.Fragment>
             <Cover>
                 <Banner 
-                title="luxurious rooms"
-                subtitle="deluxe rooms starting at $299"
+                title="Acomodações"
+                subtitle="Quartos a partir de  R$80"
                 >
-                <Link to="/rooms" className="btn-primary">our rooms</Link>
+                <Link to="/rooms" className="btn-primary">Nossas acomodações</Link>
                 </Banner>
             </Cover>
             <Services/>

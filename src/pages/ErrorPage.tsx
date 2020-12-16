@@ -8,9 +8,9 @@ const ErrorPage: React.FC = () => {
         <Cover>
             <Banner 
             title="404"
-            subtitle="page not found"
+            subtitle="página não Encontrada"
             >
-            <Link to="/" className="btn-primary">return home</Link>
+            <Link to="/" className="btn-primary">Voltar</Link>
             </Banner>
         </Cover>
     )

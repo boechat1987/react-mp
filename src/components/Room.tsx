@@ -13,12 +13,12 @@ const Room: React.FC<IRoomProps> = React.memo((props) => {
     return (
         <article className="room">
             <div className="img-container">
-                <img src={images[0] || defaultImg} alt="single room" />
+                <img src={images[0] || defaultImg} alt="quarto simples" />
                 <div className="price-top">
-                    <h6>${price}</h6>
-                    <p>per night</p>
+                    <h6>R${price}</h6>
+                    <p>pernoite</p>
                 </div>
-                <Link to={`/rooms/${slug}`} className="btn-primary room-link">features</Link>
+                <Link to={`/rooms/${slug}`} className="btn-primary room-link">Detalhes</Link>
              </div>
              <p className="room-info">{name}</p>
         </article>

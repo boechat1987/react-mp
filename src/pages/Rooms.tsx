@@ -9,9 +9,9 @@ const Rooms: React.FC = () => {
         <React.Fragment>
         <Cover coverClass="roomsHero">
             <Banner 
-            title="our rooms"
+            title="Acomodações"
             >
-            <Link to="/" className="btn-primary">return home</Link>
+            {/* <Link to="/" className="btn-primary">retornar</Link> */}
             </Banner>
         </Cover>
         <RoomsContainer />
