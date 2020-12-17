@@ -67,7 +67,7 @@ export default class SingleRoom extends Component<IPropsSingleRoom, IStateSingle
                            <h3>info</h3>
                            <h6>preço : R${price}</h6>
                            <h6>tamanho : {size} m²</h6>
-                           <h6>capacidade máxima: { capacity > 1 ? `${capacity} people` : `${capacity} person` }</h6>
+                           <h6>capacidade máxima: { capacity > 1 ? `${capacity} pessoas` : `${capacity} pessoa` }</h6>
                            <h6>{pets ? "permitido pets" : "não permite pets"}</h6>
                            <h6>{breakfast && "café incluído"}</h6>
                        </article>
