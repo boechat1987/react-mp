@@ -23,7 +23,7 @@ export default [
     fields: {
       name: "Quarto econômico",
       slug: "single-economy",
-      type: "single",
+      type: "simples",
       price: 100,
       size: 200,
       capacity: 1,
@@ -77,7 +77,7 @@ export default [
     fields: {
       name: "Quarto básico",
       slug: "single-basic",
-      type: "single",
+      type: "simples",
       price: 150,
       size: 250,
       capacity: 1,
@@ -131,7 +131,7 @@ export default [
     fields: {
       name: "Quarto Amplo",
       slug: "single-standard",
-      type: "single",
+      type: "simples",
       price: 250,
       size: 300,
       capacity: 1,
@@ -185,7 +185,7 @@ export default [
     fields: {
       name: "Quarto deluxe",
       slug: "single-deluxe",
-      type: "single",
+      type: "simples",
       price: 300,
       size: 400,
       capacity: 1,
@@ -239,7 +239,7 @@ export default [
     fields: {
       name: "Quarto duplo econômico",
       slug: "double-economy",
-      type: "double",
+      type: "duplo",
       price: 200,
       size: 300,
       capacity: 2,
@@ -293,7 +293,7 @@ export default [
     fields: {
       name: "Quarto duplo básico",
       slug: "double-basic",
-      type: "double",
+      type: "duplo",
       price: 250,
       size: 350,
       capacity: 2,
@@ -347,7 +347,7 @@ export default [
     fields: {
       name: "Quarto duplo padrão",
       slug: "double-standard",
-      type: "double",
+      type: "duplo",
       price: 300,
       size: 400,
       capacity: 2,
@@ -401,7 +401,7 @@ export default [
     fields: {
       name: "Quarto duplo deluxe",
       slug: "double-deluxe",
-      type: "double",
+      type: "duplo",
       price: 400,
       size: 500,
       capacity: 2,
@@ -455,7 +455,7 @@ export default [
     fields: {
       name: "Quarto familiar econômico",
       slug: "family-economy",
-      type: "family",
+      type: "familia",
       price: 300,
       size: 500,
       capacity: 3,
@@ -509,7 +509,7 @@ export default [
     fields: {
       name: "Quarto familiar básico",
       slug: "family-basic",
-      type: "family",
+      type: "familia",
       price: 350,
       size: 550,
       capacity: 4,
@@ -563,7 +563,7 @@ export default [
     fields: {
       name: "Quarto familiar padrão",
       slug: "family-standard",
-      type: "family",
+      type: "familia",
       price: 400,
       size: 600,
       capacity: 5,
@@ -617,7 +617,7 @@ export default [
     fields: {
       name: "Quarto familiar deluxe",
       slug: "family-deluxe",
-      type: "family",
+      type: "familia",
       price: 500,
       size: 700,
       capacity: 6,
@@ -671,7 +671,7 @@ export default [
     fields: {
       name: "Quarto Presidencial",
       slug: "presidential-room",
-      type: "presidential",
+      type: "presidencial",
       price: 600,
       size: 1000,
       capacity: 10,

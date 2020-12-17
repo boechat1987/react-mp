@@ -1,7 +1,7 @@
 import React from 'react';
 import Cover from '../components/Cover';
 import Banner from '../components/Banner';
-import { Link } from 'react-router-dom';
+/* import { Link } from 'react-router-dom'; */
 import RoomsContainer from '../containers/RoomsContainer';
 
 const Rooms: React.FC = () => {
